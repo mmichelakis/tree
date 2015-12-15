@@ -1,0 +1,7 @@
+treeHeight = input ("Ypsos dendrou: ")
+trunkHeight = input ("Ypsos kormou: ")
+trunkWidth = input ("Platos kormou: ")
+i = 0
+while i < treeHeight:
+ print ((" " * (treeHeight - i)) + ("*" * (i * 2 + 1)))
+ i = i + 1
