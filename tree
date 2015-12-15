@@ -5,3 +5,7 @@ i = 0
 while i < treeHeight:
  print ((" " * (treeHeight - i)) + ("*" * (i * 2 + 1)))
  i = i + 1
+j = 0
+while j < trunkHeight:
+ print ((" " * (treeHeight - 1)) + ("*" * trunkWidth))
+ j = j + 1
